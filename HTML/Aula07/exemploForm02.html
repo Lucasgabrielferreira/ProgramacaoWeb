@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+    xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms em HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exemplo de formulário no HTML</h1>
+    </header>
+    <article>
+        <form action="#">
+            <label for="cNome">Nome:</label><br />
+            <input type="text" size=50 name="tNome" id="cNome" required="required" />
+            <br /><br />
+            <p>Você mora:</p>
+            <input type="radio" name="tipo" id="cid" value="C" />
+            <label for="cid">Cidade</label><br />
+            <input type="radio" name="tipo" id="inter" value="I" />
+            <label for="inter">Interior</label><br />
+            <br /><br />
+            <p>Qual meio de transporte você usa?</p>
+            <input type="checkbox" id="transporte1" name="transporte1" value="Bike" />
+            <label for="transporte1"> Bicicleta</label><br />
+            <input type="checkbox" id="transporte2" name="transporte2" value="Car" />
+            <label for="transporte2"> Carro</label><br />
+            <input type="checkbox" id="transporte3" name="transporte3" value="Metro" />
+            <label for="transporte3"> Metrô</label><br />
+            <input type="checkbox" id="transporte4" name="transporte4" value="Bus" />
+            <label for="transporte4"> Ônibus</label> <br /><br />
+            <label for="time">Selecione seu time:</label>
+            <select id="time" name="time">
+                <option value="cruzeiro">Cruzeiro</option>
+                <option value="sao_paulo">São Paulo</option>
+                <option value="corinthians">Corinthians</option>
+                <option value="gremio">Grêmio</option>
+                <option value="goiás">Goiás</option>
+                <option value="santos">Santos</option>
+            </select><br /><br />
+            <label for="cCid">Escolha a sua Cidade na lista:</label>
+            <input autocomplete="on" list="cidade" name="tCid" id="cCid" placeholder="Sua Cidade" />
+            <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Campinas"></option>
+                <option value="Santos"></option>
+                <option value="Santo André"></option>
+                <option value="Osasco"></option>
+            </datalist>
+            <br /><br />
+            <input type="submit" value="Enviar" />
+        </form>
+    </article>
+    <footer>
+        <small>Instituto da Oportunidade Social</small>
+    </footer>
+</body>
+
+</html>

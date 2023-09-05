@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--Lucas Gabriel-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Atividade04</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario Aluno IOS</h1>
+    </header>
+    <article>
+        <form action="#">
+            <label for="cNome">Nome Completo:</label><br />
+            <input type="text" size=50 name="tNome" id="cNome" placeholder = "Escreva aqui" required="required" />
+            <br /><br/>
+            <label for="cEmail">Email:</label><br>
+            <input type="text" size=50 name="tEmail" id="cEmail" placeholder = "Ex: alunoios@gmail.com.org.br" required="required" />
+            <br /><br />
+          
+            <p>Qual o seu gênero?</p>
+            <input type="radio" name="genero" id="masculino" value="masculino" />
+            <label for="masculino"> Masculino</label><br />
+            <input type="radio" name="genero" id="feminino" value="feminino" />
+            <label for="feminino"> Feminino</label><br />
+            <input type="radio" name="genero" id="outros" value="outros" />
+            <label for="outros"> Outro</label><br />
+            <input type="radio" name="genero" id="naoDizer" value="naoDizer" />
+            <label for="naoDizer"> Prefiro não dizer</label>
+            
+            <br /><br />
+          
+            <p>Quais são seus estilos musicais preferidos?</p>
+            <input type="checkbox" name="rock" id="rock" value="rock" />
+            <label for="rock"> Rock</label><br />
+            <input type="checkbox" name="pop" id="pop" value="pop" />
+            <label for="pop"> Pop</label><br />
+            <input type="checkbox" name="samba" id="samba" value="samba" />
+            <label for="samba"> Samba</label><br />
+            <input type="checkbox" name="mpb" id="mpb" value="mpb" />
+            <label for="mpb"> MPB</label><br />
+            <input type="checkbox" name="rap" id="rap" value="rap" />
+            <label for="rap"> Rap</label><br />
+          
+            <br /><br />
+          
+            <p>Qual é a sua cor favorita?</p>
+            <select name="cor">
+              <option value="">Selecione uma cor</option>
+              <option value="#FF0000">Vermelho</option>
+              <option value="#00FF00">Verde</option>
+              <option value="#0000FF">Azul</option>
+              <option value="#FFFF00">Amarelo</option>
+              <option value="#FF00FF">Rosa</option>
+              <option value="#00FFFF">Ciano</option>
+              <option value="#FFFFFF">Branco</option>
+              <option value="#000000">Preto</option>
+              </select>
+          
+              <br /><br />
+          
+              <p>Qual é a unidade do IOS mais próxima de você?</p>
+              <input list ="unidades">
+                <datalist id ="unidades">
+                  <option value ="IOS São Paulo">
+                  </option><option value ="IOS Rio de Janeiro">
+                  </option><option value ="IOS Belo Horizonte">
+                  </option><option value ="IOS Salvador">
+                  </option><option value ="IOS Recife">
+                  </option><option value ="IOS Fortaleza">
+                  </option><option value ="IOS Brasília">
+                  </option><option value ="IOS Curitiba">
+                  </option><option value ="IOS Porto Alegre">
+                </datalist>
+          
+                <br /><br />
+          
+                <p>Alguma observação?</p>
+                <textarea rows = "4", cols = "50", name = "observacao", placeholder = "Escreva aqui"></textarea>
+          
+                <br /><br />
+          
+                <button type = "submit">Enviar formulário</button>
+                <br/><br>
+          </form>
+          
+    </article>
+    <footer>
+        <a href="https://ios.org.br/" target="_blank"></small>Instituto da Oportunidade Social</small></a>
+        
+    </footer>
+</body>
+
+</html>
