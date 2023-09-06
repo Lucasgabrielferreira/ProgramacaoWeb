@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f8f8ee;    
+}
+
+/* Classe aplicada apenas a títulos principais */
+h1.titulo{
+    text-align: center;
+}
+
+/* Classe aplicada apenas a paragrafo */
+p.black{
+    background-color: black;
+    color: magenta;
+    font-style: italic;
+    text-indent: 0em;
+}
+
+.blue{
+    background-color: rgb(39, 191, 230);
+    color: black;
+    font-style: initial;
+}
+
+#p3{
+    background-color: green;
+    color: white;
+    font-style: oblique;
+}
+
+/* Classe aplicada a todos os paragrafo */
+p{
+    background-color: yellow;
+}
