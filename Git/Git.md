@@ -1,3 +1,5 @@
+
+<!-- Lucas Gabriel -->
 Configurações iniciais
 Antes de iniciarmos um repositório local é necessário definir seu nome e endereço de e-mail, essa configuração inicial é importante porque todos os commits do git utilizará essas informações, para isso use os comandos abaixo no terminal.
 
