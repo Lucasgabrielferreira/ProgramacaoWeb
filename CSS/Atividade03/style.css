@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    top: 0;
+}
+
+article {
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    border-top: dotted red;
+    border-bottom: solid red;
+    border-left: solid red;
+    border-right: solid red;
+
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+
+    padding: 6px;
+    margin-top: 15px;
+}
