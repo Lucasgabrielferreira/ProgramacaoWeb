@@ -1,0 +1,32 @@
+
+.div {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    display: inline-flexbox;
+    border: solid black 2px;
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.elemento_pai{
+    float: right;
+}
+
+.azul{
+    background-color: blue;
+    /* float:center; */
+    float: inherit;
+}
+
+.verde{
+    background-color: green;
+    /* float: right; */
+    float: inherit;
+}
+
+.marrom{
+    background-color:rgb(138, 63, 3);
+    /* float: left; */
+    float: inherit;
+}
