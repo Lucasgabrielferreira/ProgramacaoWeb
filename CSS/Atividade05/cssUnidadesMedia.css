@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
 
 header {
     background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2021/09/Universo-.jpg');
@@ -15,10 +20,10 @@ header {
     text-align: center;    
     color: white;
     line-height: 2em;
-    
+      
 }
 
-main {
+article {
     background-image: url('https://www.todoestudo.com.br/wp-content/uploads/2015/03/paisagem-natural-1024x679.jpg');
     background-size: cover;
     background-position: center;
@@ -30,7 +35,7 @@ main {
     
 }
 
-footer {
+section {
     background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-clear-creative-texture-dark-blue-sea-background-picture-image_1173064.jpg');
     background-size: cover;
     background-position: center;
@@ -44,7 +49,7 @@ footer {
     font-size: 18px;
     text-decoration: none;
     color: #eb3232;
-    border: #b40505 1px solid;
+    border: #b40505 2px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -54,8 +59,8 @@ footer {
     font-size: 18px;
     text-decoration: none;
     color: #000000;
-    border: #000000 1px solid;
-    padding: 10px 20px;
+    border: #000000 2px solid;
+    padding: 5px 10px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
