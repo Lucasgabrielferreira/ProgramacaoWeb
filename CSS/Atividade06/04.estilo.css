@@ -1,0 +1,20 @@
+@charset "utf-8";
+p {
+    color: red;
+}
+
+p.ex-1 {
+    display: none;
+}
+
+p.ex-2 {
+    display: inline;
+}
+
+p.ex-3 {
+    display: block;
+}
+
+p.ex-4 {
+    display: inline-block;
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+section {
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+}
+
+div {
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+
+.esquerda {
+    float: left;
+    background: pink;
+}
+
+.direita {
+    float: right;
+    background: cyan;
+}
