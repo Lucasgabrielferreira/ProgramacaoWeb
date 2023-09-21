@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+* {
+    padding: 0%;
+    margin: 10px;
+}
+
+:root {
+    --cor-prim: black;
+    --cor-sec: white;
+}
+
+body {
+    font-family: 'Fuggles', cursive;
+    font-size: 30px;
+    background-color: var(--cor-prim);
+    color: var(--cor-sec);
+}
+
+p {
+    color: var(--cor-sec);
+}
+
+img {
+    float: left;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+}
+
+/* All */
+@media (max-width: 400px) {
+    img {
+        width: 60vw;
+    }
+}
+
+/* min-width */
+
+/* max-width - 400px */
