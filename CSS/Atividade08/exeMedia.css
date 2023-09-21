@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+* {
+    padding: 0%;
+    margin: 10px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 350px) {
+    img {
+        display: none;
+    }
+    body{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 600px){
+    p{
+
+    }
+    body{
+        padding: 20px;
+    }
+}
