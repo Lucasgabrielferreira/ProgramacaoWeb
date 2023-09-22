@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* Alinhamento de listagens com float */
+
+li {
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <!-- Lucas Gabriel Ferreira  -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Pseudo.css">
     <title>Ppseu/Classes/elementos</title>
     <style>
         /* pseuclasses */
@@ -20,10 +21,27 @@
             background-color: rgb(0, 217, 255);
         }
 
-        /* pseudoelementos */
+        h1:hover {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+
+        li:nth-child(odd) {
+            background-color: rgb(145, 145, 241);
+        }
+
+        /* pseudoelementos*/
         p::first-letter {
             font-size: 200%;
             color: #f30a0a;
+        }
+        h1::before {
+            content: "• ";
+            color: rgb(50, 163, 238);
+        }
+        li::after {
+            content: "  Pseudoelementos ";
+            font-style: italic;
         }
     </style>
 </head>
@@ -36,6 +54,11 @@
         <P>Lorem ipsum dolor sit amet.</P>
         <P>Lorem ipsum dolor sit amet.</P>
     </article>
+    <footer>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </footer>
 </body>
 
 </html>

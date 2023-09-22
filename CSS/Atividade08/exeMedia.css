@@ -6,25 +6,33 @@
     margin: 10px;
 }
 
-body{
-    background-color: black;
-    color: white;
+body {
+    background-color: white;
+    color: black;
 }
 
 @media (max-width: 350px) {
     img {
         display: none;
     }
-    body{
+
+    body {
         font-size: 1.5rem;
     }
 }
 
-@media (min-width: 600px){
-    p{
-
+@media (min-width: 600px) {
+    p {
+        text-align: justify;
     }
-    body{
+
+    body {
         padding: 20px;
+    }
+}
+
+@media (max-width: 850px) and (min-width: 950px) {
+    body {
+        background-color: silver;
     }
 }
