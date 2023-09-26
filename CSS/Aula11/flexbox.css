@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    border: 2px solid rgb(0, 238, 255);
+    max-width: 400px;
+    height: 400px;
+    display: flex;
+    /*Permitir que voce trable com o elemento flex*/
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /*flex-flow: row wrap;*/
+    justify-content: flex-start;
+    /* align-items: baseline; */
+}
+
+.box {
+    border: 2px solid rgb(128, 0, 96);
+    margin: 1px;
+    height: 100px;
+    width: 100px;
+}
+
+#cx1 {
+    order: 1;
+}
+
+#cx2 {
+    order: 2;
+}
+
+#cx3 {
+    order: 3 ;
+}
