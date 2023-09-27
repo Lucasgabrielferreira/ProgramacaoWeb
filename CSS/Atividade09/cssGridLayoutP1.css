@@ -1,0 +1,35 @@
+
+
+.content{
+    display: grid;
+}
+
+.grid-templete {
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+    overflow-x: hidden;
+}
+
+.column-gap{
+    column-gap: 30px;
+}
+
+.justify-items{
+    justify-items: center;
+}
+
+.align-items{
+    align-items:flex-start;
+}
+
+.justify-content{
+    justify-content: flex-end;
+}
+
+.align-content{
+    align-content:first baseline;
+}
+
+.grid-auto{
+    grid-auto-columns: min-content;
+}
