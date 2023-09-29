@@ -7,7 +7,7 @@
     border: 1px solid black;
 }
 
-.grid-templete {
+.grid-columns-start{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
@@ -16,12 +16,12 @@
     color: black;
     
 }
-.grid-templete>div {
+.grid-columns-start>div {
     background: grey;
     padding: 1em;
 }
 
-.column-gap {
+.grid-row{
     display: grid;
     column-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
@@ -30,12 +30,12 @@
     padding: 1em;
     
 }
-.column-gap>div{
+.grid-row>div{
     background: gold;
     padding: 1em;
 }
 
-.justify-items {
+.grid-area {
     display: grid;
     justify-items: center;
     column-gap: 30px;
@@ -44,12 +44,12 @@
     color: black;
     padding: 1em;
 }
-.justify-items>div{
+.grid-area>div{
     background: red;
     padding: 1em;
 }
 
-.align-items {
+.justify-self {
     display: grid;
     align-items: flex-start;
     grid-template-columns: 49% 49%;
@@ -57,12 +57,12 @@
     grid-gap: 1em;
     color: black;
 }
-.align-items>div{
+.justify-self>div{
     background:aqua;
     padding: 1em;
 }
 
-.justify-content {
+.align-self {
     display: grid;
     justify-content: end;
     grid-template-columns: 40% 20%;
@@ -71,12 +71,12 @@
     color: black;
     padding: 1em;
 }
-.justify-content>div{
+.align-self>div{
     background:greenyellow;
     padding: 1em;
 }
 
-.align-content {
+.place-self {
     display: grid;
     align-content: end;
     height: 300px;
@@ -85,20 +85,8 @@
     color: white;
     padding: 1em;
 }
-.align-content>div{
+.place-self>div{
     background: blueviolet;
     height: 70px;
     padding: 1em;
-}
-
-.grid-auto {
-    display: grid;
-    grid-auto-columns: min-content;
-    grid-auto-rows: minmax(50px, auto);
-    grid-gap: 1em;
-    color: white;
-}
-.grid-auto>div{
-    padding: 1em;
-    background-color: black;
 }
