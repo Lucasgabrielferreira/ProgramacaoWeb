@@ -11,3 +11,8 @@ const soma = (media01 + media_02 + Media03) / 3;
 console.log(Nome + " " + idade + " Anos");
 console.log("É maior de idade: " + maioridade);
 console.log("Media do Aluno: " + soma);
+
+// window.alert("Olá Mundo!")
+// window.confirm("Bora?")
+// window.prompt("Qual seu Nome?")
+// window.prompt("Qual seu Nome?")
