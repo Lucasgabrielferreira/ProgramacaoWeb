@@ -3,7 +3,7 @@
 // sobrenome; 
 // Crie uma string para apresentar o resultado. 
 
-let nome = "Lucas Ferreira Gabriel"
-console.log(mensagem);
-let novaNome = mensagem.replace('Ferreira', 'Gabriel');
-console.log(novaNome);
+let nome = 'Lucas Ferreira';
+console.log(nome);
+let novoNome = nome.replace('Ferreira', 'Gabriel');
+console.log(novoNome);
