@@ -10,18 +10,22 @@ switch (voucher) {
     case "DESC2":
         let desconto1 = (10 / 100) * produto;
         console.log(`valor original do produto R$ ${produto} e o valor com desconto é: ${desconto1 - produto}`);
+    break;
 
     case "DESC3":
         let desconto2 = (15 / 100) * produto;
         console.log(`valor original do produto R$ ${produto} e o valor com desconto é: ${desconto2 - produto}`);
+    break;
 
     case "DESC4":
         let desconto3 = (20 / 100) * produto;
         console.log(`valor original do produto R$ ${produto} e o valor com desconto é: ${desconto3 - produto}`);
+    break;
 
     case "DESC5":
         let desconto5 = (25 / 100) * produto;
         console.log(`valor original do produto R$ ${produto} e o valor com desconto é: ${desconto5 - produto}`);
+    break;
 
     default:
     console.log(`voucher invalido`);

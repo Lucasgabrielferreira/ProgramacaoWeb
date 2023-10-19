@@ -21,6 +21,8 @@ console.log(text);
 //Mostrar no console os números pares de 1 a 100. (for)
 console.clear();
 for (let i = 0; i < 100; i++){
-    Pares = i / 2;
+    if (i % 2 === 0) {
+        console.log(`Números pares: ${i}`);
+    }
 } 
-console.log(`Números pares: ${i}`);
+

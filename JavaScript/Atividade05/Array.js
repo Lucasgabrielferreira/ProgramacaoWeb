@@ -1,13 +1,19 @@
 let times = ["Palmeiras", "Santos", "Portuguesa", "Ponte Preta", "Corithians"]
 
-times.pop()
+console.log(times)
 
-console.log(times);
+ times.pop()
 
-times.shift()
+ console.log(times);
+
+ times.shift()
 
 console.log(times);
 
 times.push("São Paulo");
 
+console.log(times)
+
 times.unshift("Flamengo");
+
+console.log(times)
