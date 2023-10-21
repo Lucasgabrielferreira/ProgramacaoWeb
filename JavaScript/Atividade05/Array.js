@@ -10,10 +10,10 @@ console.log(times)
 
 console.log(times);
 
-times.push("São Paulo");
+times.push("Flamengo");
 
 console.log(times)
 
-times.unshift("Flamengo");
+times.unshift("Maior Campeão SÂO PAULO");
 
 console.log(times)

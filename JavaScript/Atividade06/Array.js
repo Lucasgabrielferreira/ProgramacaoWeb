@@ -7,9 +7,9 @@ let alunos = [{
     hobbies: ['música', 'filmes', 'esportes'],
     notas: [
         10,
-        10,
-        10,
-        10,
+        8,
+        7,
+        9,
         10,
    ],
     endereco: {
@@ -27,9 +27,9 @@ let alunos = [{
     corDosOlhos: 'castanhos claros',
     hobbies: ['música', 'filmes', 'esportes'],
     notas: [
-        10,
+        5,
         9,
-        8,
+        6,
         7,
         6,
    ],
@@ -47,11 +47,11 @@ let alunos = [{
     corDosOlhos: 'castanho claro mel',
     hobbies: ['música', 'filmes', 'esportes'],
     notas: [
-         10,
-         9,
-         8,
          7,
-         6,
+         7,
+         7,
+         7,
+         7,
     ],
     endereco: {
         rua: 'Travessa IOS',
@@ -74,7 +74,13 @@ for (let i of alunos) {
     let media = soma / i.notas.length;
 
     console.log(`Aluno ${i.nome} ${i.sobrenome}, Tem ${i.idade} anos, Com notas: ${i.notas}, Endereço: ${i.endereco.rua} Nº${i.endereco.numero}, e teve a media: ${media} `)
-
+    if(media >7){
+        console.log(`Aluno ${i.nome} ${i.sobrenome}, Aprovado(a)!`)
+    }else if(media === 7){   
+        console.log(`Aluno ${i.nome} ${i.sobrenome}, Aprovado(a) Pelo Conselho!`)
+    }else{
+        console.log(`Aluno ${i.nome} ${i.sobrenome}, Reprovado(a)!`)
+    }
 }
 
 
