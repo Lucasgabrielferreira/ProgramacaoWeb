@@ -2,7 +2,7 @@ let alunos = [{
     id: 1,
     nome: 'Lucas',
     sobrenome: 'Gabriel',
-    idade: 10,
+    idade: 23,
     corDosOlhos: 'castanlhos',
     hobbies: ['música', 'filmes', 'esportes'],
     notas: [
@@ -23,7 +23,7 @@ let alunos = [{
     id: 2,
     nome: 'Gabriel',
     sobrenome: 'Ferreira',
-    idade: 10,
+    idade: 18,
     corDosOlhos: 'castanhos claros',
     hobbies: ['música', 'filmes', 'esportes'],
     notas: [
@@ -43,7 +43,7 @@ let alunos = [{
     id: 3,
     nome: 'Amanda',
     sobrenome: 'Ferraz',
-    idade: 10,
+    idade: 17,
     corDosOlhos: 'castanho claro mel',
     hobbies: ['música', 'filmes', 'esportes'],
     notas: [
