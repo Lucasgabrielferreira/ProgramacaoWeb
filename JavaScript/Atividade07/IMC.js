@@ -2,11 +2,11 @@
 function imc(peso, altura){
     return peso / (altura * altura);
 }
-const IMC = imc(70, 1.80).toExponential();
+const IMC = imc(70, 1.73).toExponential();
 
 switch(true) {
     case IMC < 16:
-        console.log("Muito abaixp do peso.");
+        console.log("Muito abaixo do peso.");
     break;
     case IMC >= 17 && IMC <= 18.4:
         console.log("Abaixo do peso.");
