@@ -14,6 +14,5 @@ let funcionarios = [{
     salario: 4.000,
 }
 ];
-funcionarios.forEachforEach(() => {
-    
-});
+
+funcionarios.forEach((Nome) => console.log(Nome.nome));
