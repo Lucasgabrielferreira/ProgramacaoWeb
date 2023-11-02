@@ -26,14 +26,35 @@ let funcionarios = [
     },
 ];
 
-funcionarios.forEach((funcionarioss) => {
-    console.log(funcionarioss.nome);
-    console.log(`Salario: ${funcionarioss.salario}`);
+funcionarios.forEach((funcionario) => {
+    console.log(`${funcionario.nome}, Salario: ${funcionario.salario}`);
 });
 
 
-let reajuste = funcionarios.map((funcionarioss) => {
+let reajuste = funcionarios.map((funcionario) => {
 
-    return funcionarioss.salario * 1.05;
+    return{
+        nome: funcionario.nome,
+        salario: funcionario.salario * 1.05
+    }
+
 });
-console.log(`Novos salarios após reajuste de 5% ${reajuste}`);
+
+
+console.log('Novos salários após o reajuste de 5%:');
+reajuste.forEach((funcionario) => {
+  console.log(`${funcionario.nome}, Salario: ${funcionario.salario}`);
+});
+
+let salarioMaisDe5000 = reajuste.filter(funcionario => funcionario.salario > 5000);
+
+console.log(`Salarios Maior que 5.000:`);
+console.log(salarioMaisDe5000);
+
+let wally = salarioMaisDe5000.find(funcionario => funcionario.nome === 'Wally');
+
+if (wally) {
+    console.log('Você encontrou o Wally!');
+  } else {
+    console.log('Wally não foi encontrado.');
+}
