@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url("https://blog.letclinic.com/wp-content/uploads/2023/03/Capa_Principal_BlogLC-1-1024x471.png");
+    background-color: white;
+    width: 0vw;
+    height: 0vh;
+    background-size: cover;
+    color: black;
+}
