@@ -1,16 +1,56 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
 
 * {
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
 }
 
 body {
-    background-image: url("https://blog.letclinic.com/wp-content/uploads/2023/03/Capa_Principal_BlogLC-1-1024x471.png");
-    background-color: white;
-    width: 0vw;
-    height: 0vh;
-    background-size: cover;
-    color: black;
+  color: black;
+  margin: 0;
+  padding: 0;
+  background: #1c86ee;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  opacity: 0.8;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 110%;
+  position: relative;
+  text-align: center;
+  line-height: 185%;
+  background-color: #b0c4de;
+  box-shadow: 0px 0px 5px 5px black;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  height: 260px;
+  margin-left: -200px;
+  margin-top: -130px;
+}
+
+@media (max-width: 410px) {
+  form {
+    width: 260px;
+    height: 370px;
+    margin-left: -130px;
+    margin-top: -170px;
+  }
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
